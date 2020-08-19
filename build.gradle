@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group = 'maowcraft'
+version = '1.0.0'
+archivesBaseName = 'minecraftnamegrabber'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.squareup.okhttp3:okhttp:4.8.1'
+    compile 'com.google.code.gson:gson:2.8.6'
+}
